@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    long long A,B,C,D;
+    cin>>A>>B>>C>>D;
+    
+    double X = B * log10(A);
+    double Y = D * log10(C);
+
+    if (X > Y) {
+        cout <<"YES"<< endl;
+    } else {
+        cout <<"NO"<< endl;
+    }
+
+    return 0;
+}
