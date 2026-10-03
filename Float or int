@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(){
+    double N;
+    cin>>N;
+    int x=N;
+    double diff=N-x;
+    if(diff==0)
+    {
+        cout<<"int"<<" "<< x <<endl;
+    }else {
+    cout<<"float"<<" "<<x<<" "<<diff<<endl;
+    }
+
+
+
+return 0;
+}
